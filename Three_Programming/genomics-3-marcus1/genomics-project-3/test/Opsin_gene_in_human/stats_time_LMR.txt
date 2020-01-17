@@ -1,0 +1,14 @@
+------STATS----------
+
+Total number of nodes: 5408
+Number of internal nodes: 2105
+Number of leaves: 3303
+Size of the tree <bytes>: 346112
+Average string depth of an internal node: 5.72066
+String depth of the deepest internal node: 18
+
+Time to construct the tree: 0 seconds.
+
+Longest exact matching repeat:
+	Length = 18
+	Starting positions: 1818	1811	

@@ -1,0 +1,2244 @@
+
+
+			*******************************************
+			************* Program Running *************
+			*******************************************
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 0 | remLen: 3844 | curPtr->nodeID: 3845 | SL: 3845 | (-1, 0) | parent: 3845 | grandparent: 3845
+	 children: 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3845, (-1, 0)
+
+	*** case_IB called ***
+
+i: 0 - len: 3844
+v->nodeID: 3845 - i: 0 - len: 3844
+curPtr->nodeID: 3845 - i: 0 - len: 3844
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 0 - len: 3844
+
+	*** insertChild called ***
+
+curPtr->nodeID: 3845, (0, 3844)
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 1 | remLen: 3843 | curPtr->nodeID: 1 | (0, 3844) | parent: 3845 | grandparent: 3845
+	 children:  | 1, (0, 3844) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3845, (-1, 0)
+
+	*** case_IB called ***
+
+i: 1 - len: 3843
+v->nodeID: 3845 - i: 1 - len: 3843
+curPtr->nodeID: 3845 - i: 1 - len: 3843
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 1 - len: 3843
+findPath child-path not found, curPtr->nodeID: 3845
+
+	*** insertChild called ***
+
+curPtr->nodeID: 3845, (1, 3843)
+curPtr->nodeID: 3845 at iterator
+number of children, j: 1
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 2 | remLen: 3842 | curPtr->nodeID: 2 | (1, 3843) | parent: 3845 | grandparent: 3845
+	 children:  | 1, (0, 3844)  | 2, (1, 3843) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3845, (-1, 0)
+
+	*** case_IB called ***
+
+i: 2 - len: 3842
+v->nodeID: 3845 - i: 2 - len: 3842
+curPtr->nodeID: 3845 - i: 2 - len: 3842
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 2 - len: 3842
+findPath child-path not found, curPtr->nodeID: 3845
+
+	*** insertChild called ***
+
+curPtr->nodeID: 3845, (2, 3842)
+curPtr->nodeID: 3845 at iterator
+number of children, j: 2
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 3 | remLen: 3841 | curPtr->nodeID: 3 | (2, 3842) | parent: 3845 | grandparent: 3845
+	 children:  | 1, (0, 3844)  | 3, (2, 3842)  | 2, (1, 3843) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3845, (-1, 0)
+
+	*** case_IB called ***
+
+i: 3 - len: 3841
+v->nodeID: 3845 - i: 3 - len: 3841
+curPtr->nodeID: 3845 - i: 3 - len: 3841
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 3 - len: 3841
+child found : child: 2
+theString[3]: T  -  theString[u->child[childNum]->edgeLabel[0] + j]]: T (insertSuffix)
+theString[4]: A  -  theString[u->child[childNum]->edgeLabel[0] + j]]: G (insertSuffix)
+mismatch, return false
+
+	*** insertEdge called ***
+
+	insert to  3845, child: 2, (-1, 0) : i: 3 : len: 3841
+i: 3 : offset: 1 : i + offset: 4
+theString[newLeafNode->edgeLabel[0]]: A : theString[curPtr->child[childNum]->edgeLabel[0]]: G
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 4 | remLen: 3840 | curPtr->nodeID: 4 | (4, 3840) | parent: 3846 | grandparent: 3845
+	 children:  | 4, (4, 3840)  | 2, (2, 3842) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3846, (1, 1)
+
+	*** case_IA called ***
+
+i: 4 - len: 3840
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 4 - len: 3840
+findPath child-path not found, curPtr->nodeID: 3845
+
+	*** insertChild called ***
+
+curPtr->nodeID: 3845, (4, 3840)
+curPtr->nodeID: 3845 at iterator
+number of children, j: 3
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 5 | remLen: 3839 | curPtr->nodeID: 5 | (4, 3840) | parent: 3845 | grandparent: 3845
+	 children:  | 5, (4, 3840)  | 1, (0, 3844)  | 3, (2, 3842)  | 3846, (1, 1) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3845, (-1, 0)
+
+	*** case_IB called ***
+
+i: 5 - len: 3839
+v->nodeID: 3845 - i: 5 - len: 3839
+curPtr->nodeID: 3845 - i: 5 - len: 3839
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 5 - len: 3839
+child found : child: 3
+i: 5, edgeLabel[1]: 1, j: 0
+theString[i]: T  -  theString[alpha + j]]: T
+recursion: findPath, curPtr->nodeID: 3845 : child: 3, i: 5, len: 3839, alpha: 1
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3846, (1, 1)  - i: 6 - len: 3838
+findPath child-path not found, curPtr->nodeID: 3846
+
+	*** insertChild called ***
+
+curPtr->nodeID: 3846, (6, 3838)
+curPtr->nodeID: 3846 at iterator
+number of children, j: 2
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 6 | remLen: 3838 | curPtr->nodeID: 6 | (6, 3838) | parent: 3846 | grandparent: 3845
+	 children:  | 4, (4, 3840)  | 6, (6, 3838)  | 2, (2, 3842) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3846, (1, 1)
+
+	*** case_IA called ***
+
+i: 6 - len: 3838
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 6 - len: 3838
+child found : child: 1
+theString[6]: C  -  theString[u->child[childNum]->edgeLabel[0] + j]]: C (insertSuffix)
+theString[7]: T  -  theString[u->child[childNum]->edgeLabel[0] + j]]: T (insertSuffix)
+theString[8]: T  -  theString[u->child[childNum]->edgeLabel[0] + j]]: G (insertSuffix)
+mismatch, return false
+
+	*** insertEdge called ***
+
+	insert to  3845, child: 1, (-1, 0) : i: 6 : len: 3838
+i: 6 : offset: 2 : i + offset: 8
+theString[newLeafNode->edgeLabel[0]]: T : theString[curPtr->child[childNum]->edgeLabel[0]]: G
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 7 | remLen: 3837 | curPtr->nodeID: 7 | (8, 3836) | parent: 3847 | grandparent: 3845
+	 children:  | 1, (2, 3842)  | 7, (8, 3836) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3847, (0, 2)
+
+	*** case_IIB called ***
+
+nodeID: 3847 - i: 7 - len: 3837
+case_IIB calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3847 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 7, len: 3837, theBeta: 1
+there are children: [0]: 5 : [1]: 3847 : [2]: 3 : [3]: 3846 : 
+theString[i]: T : theString[curPtr->child[k]->edgeLabel[0]]: A
+theString[i]: T : theString[curPtr->child[k]->edgeLabel[0]]: C
+theString[i]: T : theString[curPtr->child[k]->edgeLabel[0]]: G
+theString[i]: T : theString[curPtr->child[k]->edgeLabel[0]]: T
+NodeHops found a child at: 3
+found child: 3
+v->nodeID: 3846, u->SL->nodeID: 3846, u->nodeID: 3847
+case_IIB
+v->nodeID: 3846, u->SL->nodeID: 3846, u->nodeID: 3847 - i: 7 - len: 3837
+curPtr->nodeID: 3846
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 8 | remLen: 3836 | curPtr->nodeID: 3846 | SL: 3845 | (1, 1) | parent: 3845 | grandparent: 3845
+	 children:  | 5, (4, 3840)  | 3847, (0, 2)  | 3, (2, 3842)  | 3846, (1, 1) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3845, (-1, 0)
+
+	*** case_IB called ***
+
+i: 8 - len: 3836
+v->nodeID: 3845 - i: 8 - len: 3836
+curPtr->nodeID: 3845 - i: 8 - len: 3836
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 8 - len: 3836
+child found : child: 3
+i: 8, edgeLabel[1]: 1, j: 0
+theString[i]: T  -  theString[alpha + j]]: T
+recursion: findPath, curPtr->nodeID: 3845 : child: 3, i: 8, len: 3836, alpha: 1
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3846, (1, 1)  - i: 9 - len: 3835
+findPath child-path not found, curPtr->nodeID: 3846
+
+	*** insertChild called ***
+
+curPtr->nodeID: 3846, (9, 3835)
+curPtr->nodeID: 3846 at iterator
+number of children, j: 3
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 9 | remLen: 3835 | curPtr->nodeID: 8 | (9, 3835) | parent: 3846 | grandparent: 3845
+	 children:  | 4, (4, 3840)  | 6, (6, 3838)  | 2, (2, 3842)  | 8, (9, 3835) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3846, (1, 1)
+
+	*** case_IA called ***
+
+i: 9 - len: 3835
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 9 - len: 3835
+child found : child: 3
+i: 9, edgeLabel[1]: 1, j: 0
+theString[i]: T  -  theString[alpha + j]]: T
+recursion: findPath, curPtr->nodeID: 3845 : child: 3, i: 9, len: 3835, alpha: 1
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3846, (1, 1)  - i: 10 - len: 3834
+child found : child: 0
+theString[10]: A  -  theString[u->child[childNum]->edgeLabel[0] + j]]: A (insertSuffix)
+theString[11]: A  -  theString[u->child[childNum]->edgeLabel[0] + j]]: T (insertSuffix)
+mismatch, return false
+
+	*** insertEdge called ***
+
+	insert to  3846, child: 0, (1, 1) : i: 10 : len: 3834
+i: 10 : offset: 1 : i + offset: 11
+theString[newLeafNode->edgeLabel[0]]: A : theString[curPtr->child[childNum]->edgeLabel[0]]: T
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 10 | remLen: 3834 | curPtr->nodeID: 9 | (11, 3833) | parent: 3848 | grandparent: 3846
+	 children:  | 9, (11, 3833)  | 4, (5, 3839) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3848, (4, 1)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 3848 : i: 10 - len: 3834
+u->edgeLabel[1]: 1
+beta: 1
+u->nodeID: 3848
+u_prime->nodeID: 3846
+u_prime->parent->nodeID: 3845
+SL is fine
+v_prime->nodeID: 3845
+case_IIA calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3848 : parent: 3846, (1, 1)  : SL is NULL
+	*** u_prime->nodeID: 3846, (1, 1)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 10, len: 3834, theBeta: 1
+there are children: [0]: 5 : [1]: 3847 : [2]: 3 : [3]: 3846 : 
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: A
+NodeHops found a child at: 0
+found child: 0
+v does not exist, calling add_v_edge
+
+	*** add_v_edge called ***
+
+curPtr->nodeID: 3845 : childNum: 0
+v->nodeID: 10, u->SL->nodeID: 10, u->nodeID: 3848
+v->nodeID: 10, u->SL->nodeID: 10, u->nodeID: 3848 - i: 10 - len: 3834
+curPtr->nodeID: 10 - i: 10 - len: 3834
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 11 | remLen: 3833 | curPtr->nodeID: 10 | (11, 3833) | parent: 3849 | grandparent: 3845
+	 children:  | 10, (11, 3833)  | 5, (5, 3839) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3849, (5, 3)
+
+	*** case_IA called ***
+
+i: 11 - len: 3833
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 11 - len: 3833
+findPath child-path not found, curPtr->nodeID: 3845
+
+	*** insertChild called ***
+
+curPtr->nodeID: 3845, (11, 3833)
+curPtr->nodeID: 3845 at iterator
+number of children, j: 4
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 12 | remLen: 3832 | curPtr->nodeID: 11 | (11, 3833) | parent: 3845 | grandparent: 3845
+	 children:  | 11, (11, 3833)  | 3849, (5, 3)  | 3847, (0, 2)  | 3, (2, 3842)  | 3846, (1, 1) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3845, (-1, 0)
+
+	*** case_IB called ***
+
+i: 12 - len: 3832
+v->nodeID: 3845 - i: 12 - len: 3832
+curPtr->nodeID: 3845 - i: 12 - len: 3832
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 12 - len: 3832
+child found : child: 0
+theString[12]: A  -  theString[u->child[childNum]->edgeLabel[0] + j]]: A (insertSuffix)
+theString[13]: G  -  theString[u->child[childNum]->edgeLabel[0] + j]]: A (insertSuffix)
+mismatch, return false
+
+	*** insertEdge called ***
+
+	insert to  3845, child: 0, (-1, 0) : i: 12 : len: 3832
+i: 12 : offset: 1 : i + offset: 13
+theString[newLeafNode->edgeLabel[0]]: G : theString[curPtr->child[childNum]->edgeLabel[0]]: A
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 13 | remLen: 3831 | curPtr->nodeID: 12 | (13, 3831) | parent: 3850 | grandparent: 3845
+	 children:  | 11, (12, 3832)  | 12, (13, 3831) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3850, (11, 1)
+
+	*** case_IA called ***
+
+i: 13 - len: 3831
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 13 - len: 3831
+child found : child: 3
+theString[13]: G  -  theString[u->child[childNum]->edgeLabel[0] + j]]: G (insertSuffix)
+theString[14]: G  -  theString[u->child[childNum]->edgeLabel[0] + j]]: T (insertSuffix)
+mismatch, return false
+
+	*** insertEdge called ***
+
+	insert to  3845, child: 3, (-1, 0) : i: 13 : len: 3831
+i: 13 : offset: 1 : i + offset: 14
+theString[newLeafNode->edgeLabel[0]]: G : theString[curPtr->child[childNum]->edgeLabel[0]]: T
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 14 | remLen: 3830 | curPtr->nodeID: 13 | (14, 3830) | parent: 3851 | grandparent: 3845
+	 children:  | 13, (14, 3830)  | 3, (3, 3841) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3851, (2, 1)
+
+	*** case_IA called ***
+
+i: 14 - len: 3830
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 14 - len: 3830
+child found : child: 3
+i: 14, edgeLabel[1]: 1, j: 0
+theString[i]: G  -  theString[alpha + j]]: T
+	************* mismatch *****************
+theString[i]: G  -  theString[alpha + 0]]: T
+i: 14
+
+	*** insertEdge called ***
+
+	insert to  3845, child: 3, (-1, 0) : i: 14 : len: 3830
+i: 14 : offset: 0 : i + offset: 14
+theString[newLeafNode->edgeLabel[0]]: G : theString[curPtr->child[childNum]->edgeLabel[0]]: G
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 15 | remLen: 3829 | curPtr->nodeID: 14 | (14, 3830) | parent: 3852 | grandparent: 3845
+	 children:  | 3851, (2, 1)  | 14, (14, 3830) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3852, (2, 0)
+
+	*** case_IIB called ***
+
+nodeID: 3852 - i: 15 - len: 3829
+case_IIB calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3852 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 15, len: 3829, theBeta: -1
+there are children: [0]: 3850 : [1]: 3849 : [2]: 3847 : [3]: 3852 : [4]: 3846 : 
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: A
+NodeHops found a child at: 0
+found child: 0
+v does not exist, calling add_v_edge
+
+	*** add_v_edge called ***
+
+curPtr->nodeID: 3845 : childNum: 0
+v->nodeID: 15, u->SL->nodeID: 15, u->nodeID: 3852
+case_IIB
+v->nodeID: 15, u->SL->nodeID: 15, u->nodeID: 3852 - i: 15 - len: 3829
+curPtr->nodeID: 15
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 16 | remLen: 3828 | curPtr->nodeID: 15 | (14, 3830) | parent: 3853 | grandparent: 3845
+	 children:  | 3850, (10, 2)  | 15, (14, 3830) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3853, (10, 12)
+
+	*** case_IIB called ***
+
+nodeID: 3853 - i: 16 - len: 3828
+case_IIB calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3853 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 15, (14, 3830)  : parent: 3853, (10, 12)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 16, len: 3828, theBeta: 11
+there are children: [0]: 3853 : [1]: 3849 : [2]: 3847 : [3]: 3852 : [4]: 3846 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: A
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: C
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: G
+NodeHops found a child at: 3
+found child: 3
+curPtr->nodeID: 3845
+childNum: 3
+curPtr->child[childNum]->nodeID: 3852
+recursive call to NodeHops:
+curPtr->nodeID: 3852 : curPtr->parent->nodeID: 3845
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3852, (2, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3853 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 15, (14, 3830)  : parent: 3853, (10, 12)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 16, len: 3828, theBeta: 11
+there are children: [0]: 3851 : [1]: 14 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: G
+NodeHops found a child at: 0
+found child: 0
+curPtr->nodeID: 3852
+childNum: 0
+curPtr->child[childNum]->nodeID: 3851
+recursive call to NodeHops:
+curPtr->nodeID: 3851 : curPtr->parent->nodeID: 3852
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3851, (2, 1)  : parent: 3852, (2, 0) 
+	*** u->nodeID: 3853 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 15, (14, 3830)  : parent: 3853, (10, 12)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 17, len: 3827, theBeta: 10
+there are children: [0]: 13 : [1]: 3 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: G
+NodeHops found a child at: 0
+found child: 0
+v does not exist, calling add_v_edge
+
+	*** add_v_edge called ***
+
+curPtr->nodeID: 3851 : childNum: 0
+v->nodeID: 16, u->SL->nodeID: 16, u->nodeID: 3853
+v->nodeID: 16, u->SL->nodeID: 16, u->nodeID: 3853
+v->nodeID: 16, u->SL->nodeID: 16, u->nodeID: 3853
+case_IIB
+v->nodeID: 16, u->SL->nodeID: 16, u->nodeID: 3853 - i: 16 - len: 3828
+curPtr->nodeID: 16
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 17 | remLen: 3827 | curPtr->nodeID: 16 | (27, 3817) | parent: 3854 | grandparent: 3851
+	 children:  | 16, (27, 3817)  | 13, (24, 3820) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3854, (24, 4)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 3854 : i: 17 - len: 3827
+u->edgeLabel[1]: 4
+beta: 4
+u->nodeID: 3854
+u_prime->nodeID: 3851
+u_prime->parent->nodeID: 3852
+SL is fine
+v_prime->nodeID: 3845
+case_IIA calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3854 : parent: 3851, (2, 1)  : SL is NULL
+	*** u_prime->nodeID: 3851, (2, 1)  : parent: 3852, (2, 0)  : SL is NULL
+	*** v->nodeID: 16, (27, 3817)  : parent: 3854, (24, 4)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 17, len: 3827, theBeta: 4
+there are children: [0]: 3853 : [1]: 3849 : [2]: 3847 : [3]: 3852 : [4]: 3846 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: A
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: C
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: G
+NodeHops found a child at: 3
+found child: 3
+curPtr->nodeID: 3845
+childNum: 3
+curPtr->child[childNum]->nodeID: 3852
+recursive call to NodeHops:
+curPtr->nodeID: 3852 : curPtr->parent->nodeID: 3845
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3852, (2, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3854 : parent: 3851, (2, 1)  : SL is NULL
+	*** u_prime->nodeID: 3851, (2, 1)  : parent: 3852, (2, 0)  : SL is NULL
+	*** v->nodeID: 16, (27, 3817)  : parent: 3854, (24, 4)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 17, len: 3827, theBeta: 4
+there are children: [0]: 3851 : [1]: 14 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: G
+NodeHops found a child at: 0
+found child: 0
+curPtr->nodeID: 3852
+childNum: 0
+curPtr->child[childNum]->nodeID: 3851
+recursive call to NodeHops:
+curPtr->nodeID: 3851 : curPtr->parent->nodeID: 3852
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3851, (2, 1)  : parent: 3852, (2, 0) 
+	*** u->nodeID: 3854 : parent: 3851, (2, 1)  : SL is NULL
+	*** u_prime->nodeID: 3851, (2, 1)  : parent: 3852, (2, 0)  : SL is NULL
+	*** v->nodeID: 16, (27, 3817)  : parent: 3854, (24, 4)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 18, len: 3826, theBeta: 3
+there are children: [0]: 3854 : [1]: 3 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: T
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 3851
+v->nodeID: 3855, u->SL->nodeID: 3855, u->nodeID: 3854
+v->nodeID: 3855, u->SL->nodeID: 3855, u->nodeID: 3854
+v->nodeID: 3855, u->SL->nodeID: 3855, u->nodeID: 3854
+v->nodeID: 3855, u->SL->nodeID: 3855, u->nodeID: 3854
+v->nodeID: 3855, u->SL->nodeID: 3855, u->nodeID: 3854 - i: 17 - len: 3827
+curPtr->nodeID: 3855 - i: 17 - len: 3827
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 18 | remLen: 3826 | curPtr->nodeID: 3855 | (18, 3826) | parent: 3851 | grandparent: 3852
+	 children:  | 3855, (18, 3826)  | 3854, (24, 4)  | 3, (3, 3841) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3851, (2, 1)
+
+	*** case_IA called ***
+
+i: 18 - len: 3826
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 18 - len: 3826
+child found : child: 3
+recursion: findPath, curPtr->nodeID: 3845 : child: 3, i: 18, len: 3826, alpha: 0
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3852, (2, 0)  - i: 18 - len: 3826
+child found : child: 0
+i: 18, edgeLabel[1]: 1, j: 0
+theString[i]: G  -  theString[alpha + j]]: T
+	************* mismatch *****************
+theString[i]: G  -  theString[alpha + 0]]: T
+i: 18
+
+	*** insertEdge called ***
+
+	insert to  3852, child: 0, (2, 0) : i: 18 : len: 3826
+i: 18 : offset: 0 : i + offset: 18
+theString[newLeafNode->edgeLabel[0]]: G : theString[curPtr->child[childNum]->edgeLabel[0]]: G
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 19 | remLen: 3825 | curPtr->nodeID: 18 | (18, 3826) | parent: 3856 | grandparent: 3852
+	 children:  | 3851, (2, 1)  | 18, (18, 3826) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3856, (2, 0)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 3856 : i: 19 - len: 3825
+u->edgeLabel[1]: 0
+beta: 0
+u->nodeID: 3856
+u_prime->nodeID: 3852
+u_prime->parent->nodeID: 3845
+SL is fine
+v_prime->nodeID: 15
+case_IIA calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 15, (14, 3830)  : parent: 3853, (10, 12) 
+	*** u->nodeID: 3856 : parent: 3852, (2, 0)  : SL is NULL
+	*** u_prime->nodeID: 3852, (2, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v_prime->nodeID: 15, (14, 3830)  : parent: 3853, (10, 12)  : SL is NULL
+, i: 18, len: 3826, theBeta: 0
+j == 0
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 15
+v->nodeID: 3857, u->SL->nodeID: 3857, u->nodeID: 3856
+v->nodeID: 3857, u->SL->nodeID: 3857, u->nodeID: 3856
+v->nodeID: 3857, u->SL->nodeID: 3857, u->nodeID: 3856 - i: 18 - len: 3826
+curPtr->nodeID: 3857 - i: 18 - len: 3826
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 20 | remLen: 3824 | curPtr->nodeID: 3857 | (18, 3826) | parent: 15 | grandparent: 3853
+	 children:  | 3857, (18, 3826) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 15, (14, 3830)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 15 : i: 20 - len: 3824
+u->edgeLabel[1]: 3830
+beta: 3830
+u->nodeID: 15
+u_prime->nodeID: 3853
+u_prime->parent->nodeID: 3845
+SL is fine
+v_prime->nodeID: 16
+case_IIA calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 16, (27, 3817)  : parent: 3854, (24, 4) 
+	*** u->nodeID: 15 : parent: 3853, (10, 12)  : SL is NULL
+	*** u_prime->nodeID: 3853, (10, 12)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 3857, (18, 3826)  : parent: 15, (14, 3830)  : SL is NULL
+	*** v_prime->nodeID: 16, (27, 3817)  : parent: 3854, (24, 4)  : SL is NULL
+, i: 18, len: 3826, theBeta: 3830
+j == 0
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 16
+v->nodeID: 3858, u->SL->nodeID: 3858, u->nodeID: 15
+v->nodeID: 3858, u->SL->nodeID: 3858, u->nodeID: 15
+v->nodeID: 3858, u->SL->nodeID: 3858, u->nodeID: 15 - i: 18 - len: 3826
+curPtr->nodeID: 3858 - i: 18 - len: 3826
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 21 | remLen: 3823 | curPtr->nodeID: 3858 | (18, 3826) | parent: 16 | grandparent: 3854
+	 children:  | 3858, (18, 3826) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 16, (27, 3817)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 16 : i: 21 - len: 3823
+u->edgeLabel[1]: 3817
+beta: 3817
+u->nodeID: 16
+u_prime->nodeID: 3854
+u_prime->parent->nodeID: 3851
+SL is fine
+v_prime->nodeID: 3855
+case_IIA calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3855, (18, 3826)  : parent: 3851, (2, 1) 
+	*** u->nodeID: 16 : parent: 3854, (24, 4)  : SL is NULL
+	*** u_prime->nodeID: 3854, (24, 4)  : parent: 3851, (2, 1)  : SL is NULL
+	*** v->nodeID: 3858, (18, 3826)  : parent: 16, (27, 3817)  : SL is NULL
+	*** v_prime->nodeID: 3855, (18, 3826)  : parent: 3851, (2, 1)  : SL is NULL
+, i: 31, len: 3813, theBeta: 3817
+there are children: [0]: 17 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]:  
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 3855
+v->nodeID: 3859, u->SL->nodeID: 3859, u->nodeID: 16
+v->nodeID: 3859, u->SL->nodeID: 3859, u->nodeID: 16
+v->nodeID: 3859, u->SL->nodeID: 3859, u->nodeID: 16 - i: 31 - len: 3813
+curPtr->nodeID: 3859 - i: 31 - len: 3813
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 22 | remLen: 3822 | curPtr->nodeID: 3859 | (31, 3813) | parent: 3855 | grandparent: 3851
+	 children:  | 17, (3845, -1)  | 3859, (31, 3813) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3855, (18, 3826)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 3855 : i: 22 - len: 3822
+u->edgeLabel[1]: 3826
+beta: 3826
+u->nodeID: 3855
+u_prime->nodeID: 3851
+u_prime->parent->nodeID: 3856
+SL is fine
+v_prime->nodeID: 3845
+case_IIA calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3855 : parent: 3851, (2, 1)  : SL is NULL
+	*** u_prime->nodeID: 3851, (2, 1)  : parent: 3856, (2, 0)  : SL is NULL
+	*** v->nodeID: 3859, (31, 3813)  : parent: 3855, (18, 3826)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 22, len: 3822, theBeta: 3826
+there are children: [0]: 3853 : [1]: 3849 : [2]: 3847 : [3]: 3852 : [4]: 3846 : 
+theString[i]: T : theString[curPtr->child[k]->edgeLabel[0]]: A
+theString[i]: T : theString[curPtr->child[k]->edgeLabel[0]]: T
+NodeHops found a child at: 1
+found child: 1
+curPtr->nodeID: 3845
+childNum: 1
+curPtr->child[childNum]->nodeID: 3849
+recursive call to NodeHops:
+curPtr->nodeID: 3849 : curPtr->parent->nodeID: 3845
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3849, (5, 3)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3855 : parent: 3851, (2, 1)  : SL is NULL
+	*** u_prime->nodeID: 3851, (2, 1)  : parent: 3856, (2, 0)  : SL is NULL
+	*** v->nodeID: 3859, (31, 3813)  : parent: 3855, (18, 3826)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 25, len: 3819, theBeta: 3823
+there are children: [0]: 10 : [1]: 5 : 
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: A
+NodeHops found a child at: 0
+found child: 0
+v does not exist, calling add_v_edge
+
+	*** add_v_edge called ***
+
+curPtr->nodeID: 3849 : childNum: 0
+v->nodeID: 22, u->SL->nodeID: 22, u->nodeID: 3855
+v->nodeID: 22, u->SL->nodeID: 22, u->nodeID: 3855
+v->nodeID: 22, u->SL->nodeID: 22, u->nodeID: 3855 - i: 22 - len: 3822
+curPtr->nodeID: 22 - i: 22 - len: 3822
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 23 | remLen: 3821 | curPtr->nodeID: 22 | (3848, -4) | parent: 3860 | grandparent: 3849
+	 children:  | 22, (3848, -4)  | 10, (3834, 10) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3860, (3834, -3812)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 3860 : i: 23 - len: 3821
+u->edgeLabel[1]: -3812
+beta: -3812
+u->nodeID: 3860
+u_prime->nodeID: 3849
+u_prime->parent->nodeID: 3845
+SL is fine
+v_prime->nodeID: 3845
+case_IIA calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3860 : parent: 3849, (5, 3)  : SL is NULL
+	*** u_prime->nodeID: 3849, (5, 3)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 22, (3848, -4)  : parent: 3860, (3834, -3812)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 23, len: 3821, theBeta: -3812
+there are children: [0]: 3853 : [1]: 3849 : [2]: 3847 : [3]: 3852 : [4]: 3846 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: A
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: C
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: G
+NodeHops found a child at: 3
+found child: 3
+v does not exist, calling add_v_edge
+
+	*** add_v_edge called ***
+
+curPtr->nodeID: 3845 : childNum: 3
+v->nodeID: 23, u->SL->nodeID: 23, u->nodeID: 3860
+v->nodeID: 23, u->SL->nodeID: 23, u->nodeID: 3860 - i: 23 - len: 3821
+curPtr->nodeID: 23 - i: 23 - len: 3821
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 24 | remLen: 3820 | curPtr->nodeID: 23 | (-3789, 7633) | parent: 3861 | grandparent: 3845
+	 children:  | 3852, (-3810, 3812)  | 23, (-3789, 7633) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3861, (-3810, 3814)
+
+	*** case_IIB called ***
+
+nodeID: 3861 - i: 24 - len: 3820
+case_IIB calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3861 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 23, (-3789, 7633)  : parent: 3861, (-3810, 3814)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 24, len: 3820, theBeta: 3813
+there are children: [0]: 3853 : [1]: 3849 : [2]: 3847 : [3]: 3861 : [4]: 3846 : 
+theString[i]: T : theString[curPtr->child[k]->edgeLabel[0]]: A
+theString[i]: T : theString[curPtr->child[k]->edgeLabel[0]]: T
+NodeHops found a child at: 1
+found child: 1
+curPtr->nodeID: 3845
+childNum: 1
+curPtr->child[childNum]->nodeID: 3849
+recursive call to NodeHops:
+curPtr->nodeID: 3849 : curPtr->parent->nodeID: 3845
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3849, (5, 3)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3861 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 23, (-3789, 7633)  : parent: 3861, (-3810, 3814)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 27, len: 3817, theBeta: 3810
+there are children: [0]: 3860 : [1]: 5 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: T
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 3849
+v->nodeID: 3862, u->SL->nodeID: 3862, u->nodeID: 3861
+v->nodeID: 3862, u->SL->nodeID: 3862, u->nodeID: 3861
+v->nodeID: 3862, u->SL->nodeID: 3862, u->nodeID: 3861
+case_IIB
+v->nodeID: 3862, u->SL->nodeID: 3862, u->nodeID: 3861 - i: 24 - len: 3820
+curPtr->nodeID: 3862
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 25 | remLen: 3819 | curPtr->nodeID: 3862 | (27, 3817) | parent: 3849 | grandparent: 3845
+	 children:  | 3862, (27, 3817)  | 3860, (3834, -3812)  | 5, (5, 3839) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3849, (5, 3)
+
+	*** case_IA called ***
+
+i: 25 - len: 3819
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 25 - len: 3819
+child found : child: 0
+i: 25, edgeLabel[1]: 12, j: 0
+theString[i]: A  -  theString[alpha + j]]: A
+i: 25, edgeLabel[1]: 12, j: 1
+theString[i]: A  -  theString[alpha + j]]: G
+i: 25, edgeLabel[1]: 12, j: 2
+theString[i]: A  -  theString[alpha + j]]: G
+i: 25, edgeLabel[1]: 12, j: 3
+theString[i]: A  -  theString[alpha + j]]: A
+	************* mismatch *****************
+theString[i]: A  -  theString[alpha + 3]]: A
+i: 25
+
+	*** insertEdge called ***
+
+	insert to  3845, child: 0, (-1, 0) : i: 25 : len: 3819
+i: 25 : offset: 3 : i + offset: 28
+theString[newLeafNode->edgeLabel[0]]: G : theString[curPtr->child[childNum]->edgeLabel[0]]: G
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 26 | remLen: 3818 | curPtr->nodeID: 25 | (28, 3816) | parent: 3863 | grandparent: 3845
+	 children:  | 3853, (13, 9)  | 25, (28, 3816) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3863, (10, 3)
+
+	*** case_IIB called ***
+
+nodeID: 3863 - i: 26 - len: 3818
+case_IIB calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3863 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 26, len: 3818, theBeta: 2
+there are children: [0]: 3863 : [1]: 3849 : [2]: 3847 : [3]: 3861 : [4]: 3846 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: A
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: C
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: G
+NodeHops found a child at: 3
+found child: 3
+v does not exist, calling add_v_edge
+
+	*** add_v_edge called ***
+
+curPtr->nodeID: 3845 : childNum: 3
+v->nodeID: 26, u->SL->nodeID: 26, u->nodeID: 3863
+case_IIB
+v->nodeID: 26, u->SL->nodeID: 26, u->nodeID: 3863 - i: 26 - len: 3818
+curPtr->nodeID: 26
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 27 | remLen: 3817 | curPtr->nodeID: 26 | (28, 3816) | parent: 3864 | grandparent: 3845
+	 children:  | 3861, (-3808, 3812)  | 26, (28, 3816) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3864, (-3808, -3812)
+
+	*** case_IIB called ***
+
+nodeID: 3864 - i: 27 - len: 3817
+case_IIB calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3864 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 26, (28, 3816)  : parent: 3864, (-3808, -3812)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 27, len: 3817, theBeta: -3813
+there are children: [0]: 3863 : [1]: 3849 : [2]: 3847 : [3]: 3864 : [4]: 3846 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: A
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: C
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: C
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: T
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 3845
+v->nodeID: 3865, u->SL->nodeID: 3865, u->nodeID: 3864
+v->nodeID: 3865, u->SL->nodeID: 3865, u->nodeID: 3864
+case_IIB
+v->nodeID: 3865, u->SL->nodeID: 3865, u->nodeID: 3864 - i: 27 - len: 3817
+curPtr->nodeID: 3865
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 28 | remLen: 3816 | curPtr->nodeID: 3865 | (27, 3817) | parent: 3845 | grandparent: 3845
+	 children:  | 3863, (10, 3)  | 3865, (27, 3817)  | 3849, (5, 3)  | 3847, (0, 2)  | 3864, (-3808, -3812)  | 3846, (1, 1) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3845, (-1, 0)
+
+	*** case_IB called ***
+
+i: 28 - len: 3816
+v->nodeID: 3845 - i: 28 - len: 3816
+curPtr->nodeID: 3845 - i: 28 - len: 3816
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 28 - len: 3816
+child found : child: 1
+theString[28]: G  -  theString[u->child[childNum]->edgeLabel[0] + j]]: G (insertSuffix)
+theString[29]: A  -  theString[u->child[childNum]->edgeLabel[0] + j]]: G (insertSuffix)
+mismatch, return false
+
+	*** insertEdge called ***
+
+	insert to  3845, child: 1, (-1, 0) : i: 28 : len: 3816
+i: 28 : offset: 1 : i + offset: 29
+theString[newLeafNode->edgeLabel[0]]: A : theString[curPtr->child[childNum]->edgeLabel[0]]: G
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 29 | remLen: 3815 | curPtr->nodeID: 28 | (29, 3815) | parent: 3866 | grandparent: 3845
+	 children:  | 28, (29, 3815)  | 3865, (28, 3816) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3866, (27, 1)
+
+	*** case_IA called ***
+
+i: 29 - len: 3815
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 29 - len: 3815
+child found : child: 0
+i: 29, edgeLabel[1]: 3, j: 0
+theString[i]: A  -  theString[alpha + j]]: T
+	************* mismatch *****************
+theString[i]: A  -  theString[alpha + 0]]: T
+i: 29
+
+	*** insertEdge called ***
+
+	insert to  3845, child: 0, (-1, 0) : i: 29 : len: 3815
+i: 29 : offset: 0 : i + offset: 29
+theString[newLeafNode->edgeLabel[0]]: A : theString[curPtr->child[childNum]->edgeLabel[0]]: A
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 30 | remLen: 3814 | curPtr->nodeID: 29 | (29, 3815) | parent: 3867 | grandparent: 3845
+	 children:  | 3863, (10, 3)  | 29, (29, 3815) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3867, (10, 0)
+
+	*** case_IIB called ***
+
+nodeID: 3867 - i: 30 - len: 3814
+case_IIB calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3867 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 30, len: 3814, theBeta: -1
+there are children: [0]: 3867 : [1]: 3866 : [2]: 3849 : [3]: 3847 : [4]: 3864 : [5]: 3846 : 
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: A
+NodeHops found a child at: 0
+found child: 0
+v does not exist, calling add_v_edge
+
+	*** add_v_edge called ***
+
+curPtr->nodeID: 3845 : childNum: 0
+v->nodeID: 30, u->SL->nodeID: 30, u->nodeID: 3867
+case_IIB
+v->nodeID: 30, u->SL->nodeID: 30, u->nodeID: 3867 - i: 30 - len: 3814
+curPtr->nodeID: 30
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 31 | remLen: 3813 | curPtr->nodeID: 30 | (29, 3815) | parent: 3868 | grandparent: 3845
+	 children:  | 30, (29, 3815)  | 3867, (9, 1) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3868, (9, 11)
+
+	*** case_IIB called ***
+
+nodeID: 3868 - i: 31 - len: 3813
+case_IIB calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3868 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 30, (29, 3815)  : parent: 3868, (9, 11)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 31, len: 3813, theBeta: 10
+there are children: [0]: 3868 : [1]: 3866 : [2]: 3849 : [3]: 3847 : [4]: 3864 : [5]: 3846 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: G
+NodeHops found a child at: 1
+found child: 1
+curPtr->nodeID: 3845
+childNum: 1
+curPtr->child[childNum]->nodeID: 3866
+recursive call to NodeHops:
+curPtr->nodeID: 3866 : curPtr->parent->nodeID: 3845
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3866, (27, 1)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3868 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 30, (29, 3815)  : parent: 3868, (9, 11)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 32, len: 3812, theBeta: 9
+there are children: [0]: 28 : [1]: 3865 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: A
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: G
+NodeHops found a child at: 1
+found child: 1
+v does not exist, calling add_v_edge
+
+	*** add_v_edge called ***
+
+curPtr->nodeID: 3866 : childNum: 1
+v->nodeID: 31, u->SL->nodeID: 31, u->nodeID: 3868
+v->nodeID: 31, u->SL->nodeID: 31, u->nodeID: 3868
+case_IIB
+v->nodeID: 31, u->SL->nodeID: 31, u->nodeID: 3868 - i: 31 - len: 3813
+curPtr->nodeID: 31
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 32 | remLen: 3812 | curPtr->nodeID: 31 | (41, 3803) | parent: 3869 | grandparent: 3866
+	 children:  | 31, (41, 3803)  | 3865, (37, 3807) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3869, (37, 19)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 3869 : i: 32 - len: 3812
+u->edgeLabel[1]: 19
+beta: 19
+u->nodeID: 3869
+u_prime->nodeID: 3866
+u_prime->parent->nodeID: 3845
+SL is fine
+v_prime->nodeID: 3845
+case_IIA calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3869 : parent: 3866, (27, 1)  : SL is NULL
+	*** u_prime->nodeID: 3866, (27, 1)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 31, (41, 3803)  : parent: 3869, (37, 19)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 32, len: 3812, theBeta: 19
+there are children: [0]: 3868 : [1]: 3866 : [2]: 3849 : [3]: 3847 : [4]: 3864 : [5]: 3846 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: G
+NodeHops found a child at: 1
+found child: 1
+curPtr->nodeID: 3845
+childNum: 1
+curPtr->child[childNum]->nodeID: 3866
+recursive call to NodeHops:
+curPtr->nodeID: 3866 : curPtr->parent->nodeID: 3845
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3866, (27, 1)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3869 : parent: 3866, (27, 1)  : SL is NULL
+	*** u_prime->nodeID: 3866, (27, 1)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 31, (41, 3803)  : parent: 3869, (37, 19)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 33, len: 3811, theBeta: 18
+there are children: [0]: 28 : [1]: 3869 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: A
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: T
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 3866
+v->nodeID: 3870, u->SL->nodeID: 3870, u->nodeID: 3869
+v->nodeID: 3870, u->SL->nodeID: 3870, u->nodeID: 3869
+v->nodeID: 3870, u->SL->nodeID: 3870, u->nodeID: 3869
+v->nodeID: 3870, u->SL->nodeID: 3870, u->nodeID: 3869 - i: 32 - len: 3812
+curPtr->nodeID: 3870 - i: 32 - len: 3812
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 33 | remLen: 3811 | curPtr->nodeID: 3870 | (33, 3811) | parent: 3866 | grandparent: 3845
+	 children:  | 28, (29, 3815)  | 3870, (33, 3811)  | 3869, (37, 19) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3866, (27, 1)
+
+	*** case_IA called ***
+
+i: 33 - len: 3811
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 33 - len: 3811
+child found : child: 1
+i: 33, edgeLabel[1]: 1, j: 0
+theString[i]: G  -  theString[alpha + j]]: T
+	************* mismatch *****************
+theString[i]: G  -  theString[alpha + 0]]: T
+i: 33
+
+	*** insertEdge called ***
+
+	insert to  3845, child: 1, (-1, 0) : i: 33 : len: 3811
+i: 33 : offset: 0 : i + offset: 33
+theString[newLeafNode->edgeLabel[0]]: G : theString[curPtr->child[childNum]->edgeLabel[0]]: G
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 34 | remLen: 3810 | curPtr->nodeID: 33 | (33, 3811) | parent: 3871 | grandparent: 3845
+	 children:  | 3866, (27, 1)  | 33, (33, 3811) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3871, (27, 0)
+
+	*** case_IIB called ***
+
+nodeID: 3871 - i: 34 - len: 3810
+case_IIB calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3871 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 34, len: 3810, theBeta: -1
+there are children: [0]: 3868 : [1]: 3871 : [2]: 3849 : [3]: 3847 : [4]: 3864 : [5]: 3846 : 
+theString[i]: T : theString[curPtr->child[k]->edgeLabel[0]]: T
+NodeHops found a child at: 0
+found child: 0
+v does not exist, calling add_v_edge
+
+	*** add_v_edge called ***
+
+curPtr->nodeID: 3845 : childNum: 0
+v->nodeID: 34, u->SL->nodeID: 34, u->nodeID: 3871
+case_IIB
+v->nodeID: 34, u->SL->nodeID: 34, u->nodeID: 3871 - i: 34 - len: 3810
+curPtr->nodeID: 34
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 35 | remLen: 3809 | curPtr->nodeID: 34 | (33, 3811) | parent: 3872 | grandparent: 3845
+	 children:  | 34, (33, 3811)  | 3868, (8, 12) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3872, (8, 10)
+
+	*** case_IIB called ***
+
+nodeID: 3872 - i: 35 - len: 3809
+case_IIB calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3872 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 34, (33, 3811)  : parent: 3872, (8, 10)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 35, len: 3809, theBeta: 9
+there are children: [0]: 3872 : [1]: 3871 : [2]: 3849 : [3]: 3847 : [4]: 3864 : [5]: 3846 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: G
+NodeHops found a child at: 1
+found child: 1
+curPtr->nodeID: 3845
+childNum: 1
+curPtr->child[childNum]->nodeID: 3871
+recursive call to NodeHops:
+curPtr->nodeID: 3871 : curPtr->parent->nodeID: 3845
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3871, (27, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3872 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 34, (33, 3811)  : parent: 3872, (8, 10)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 35, len: 3809, theBeta: 9
+there are children: [0]: 3866 : [1]: 33 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: G
+NodeHops found a child at: 0
+found child: 0
+curPtr->nodeID: 3871
+childNum: 0
+curPtr->child[childNum]->nodeID: 3866
+recursive call to NodeHops:
+curPtr->nodeID: 3866 : curPtr->parent->nodeID: 3871
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3866, (27, 1)  : parent: 3871, (27, 0) 
+	*** u->nodeID: 3872 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 34, (33, 3811)  : parent: 3872, (8, 10)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 36, len: 3808, theBeta: 8
+there are children: [0]: 28 : [1]: 3870 : [2]: 3869 : 
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: A
+NodeHops found a child at: 0
+found child: 0
+v does not exist, calling add_v_edge
+
+	*** add_v_edge called ***
+
+curPtr->nodeID: 3866 : childNum: 0
+v->nodeID: 35, u->SL->nodeID: 35, u->nodeID: 3872
+v->nodeID: 35, u->SL->nodeID: 35, u->nodeID: 3872
+v->nodeID: 35, u->SL->nodeID: 35, u->nodeID: 3872
+case_IIB
+v->nodeID: 35, u->SL->nodeID: 35, u->nodeID: 3872 - i: 35 - len: 3809
+curPtr->nodeID: 35
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 36 | remLen: 3808 | curPtr->nodeID: 35 | (44, 3800) | parent: 3873 | grandparent: 3866
+	 children:  | 35, (44, 3800)  | 28, (37, 3807) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3873, (37, 21)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 3873 : i: 36 - len: 3808
+u->edgeLabel[1]: 21
+beta: 21
+u->nodeID: 3873
+u_prime->nodeID: 3866
+u_prime->parent->nodeID: 3871
+SL is fine
+v_prime->nodeID: 3845
+case_IIA calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3873 : parent: 3866, (27, 1)  : SL is NULL
+	*** u_prime->nodeID: 3866, (27, 1)  : parent: 3871, (27, 0)  : SL is NULL
+	*** v->nodeID: 35, (44, 3800)  : parent: 3873, (37, 21)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 36, len: 3808, theBeta: 21
+there are children: [0]: 3872 : [1]: 3871 : [2]: 3849 : [3]: 3847 : [4]: 3864 : [5]: 3846 : 
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: G
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: C
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: C
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: T
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 3845
+v->nodeID: 3874, u->SL->nodeID: 3874, u->nodeID: 3873
+v->nodeID: 3874, u->SL->nodeID: 3874, u->nodeID: 3873
+v->nodeID: 3874, u->SL->nodeID: 3874, u->nodeID: 3873 - i: 36 - len: 3808
+curPtr->nodeID: 3874 - i: 36 - len: 3808
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 37 | remLen: 3807 | curPtr->nodeID: 3874 | (36, 3808) | parent: 3845 | grandparent: 3845
+	 children:  | 3874, (36, 3808)  | 3872, (8, 10)  | 3871, (27, 0)  | 3849, (5, 3)  | 3847, (0, 2)  | 3864, (-3808, -3812)  | 3846, (1, 1) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3845, (-1, 0)
+
+	*** case_IB called ***
+
+i: 37 - len: 3807
+v->nodeID: 3845 - i: 37 - len: 3807
+curPtr->nodeID: 3845 - i: 37 - len: 3807
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 37 - len: 3807
+child found : child: 1
+i: 37, edgeLabel[1]: 10, j: 0
+theString[i]: T  -  theString[alpha + j]]: A
+	************* mismatch *****************
+theString[i]: T  -  theString[alpha + 0]]: A
+i: 37
+
+	*** insertEdge called ***
+
+	insert to  3845, child: 1, (-1, 0) : i: 37 : len: 3807
+i: 37 : offset: 0 : i + offset: 37
+theString[newLeafNode->edgeLabel[0]]: T : theString[curPtr->child[childNum]->edgeLabel[0]]: T
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 38 | remLen: 3806 | curPtr->nodeID: 37 | (37, 3807) | parent: 3875 | grandparent: 3845
+	 children:  | 3872, (8, 10)  | 37, (37, 3807) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3875, (8, 0)
+
+	*** case_IIB called ***
+
+nodeID: 3875 - i: 38 - len: 3806
+case_IIB calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3875 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 38, len: 3806, theBeta: -1
+there are children: [0]: 3874 : [1]: 3875 : [2]: 3871 : [3]: 3849 : [4]: 3847 : [5]: 3864 : [6]: 3846 : 
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: A
+NodeHops found a child at: 0
+found child: 0
+v does not exist, calling add_v_edge
+
+	*** add_v_edge called ***
+
+curPtr->nodeID: 3845 : childNum: 0
+v->nodeID: 38, u->SL->nodeID: 38, u->nodeID: 3875
+case_IIB
+v->nodeID: 38, u->SL->nodeID: 38, u->nodeID: 3875 - i: 38 - len: 3806
+curPtr->nodeID: 38
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 39 | remLen: 3805 | curPtr->nodeID: 38 | (37, 3807) | parent: 3876 | grandparent: 3845
+	 children:  | 3874, (35, 3809)  | 38, (37, 3807) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3876, (35, 37)
+
+	*** case_IIB called ***
+
+nodeID: 3876 - i: 39 - len: 3805
+case_IIB calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3876 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 38, (37, 3807)  : parent: 3876, (35, 37)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 39, len: 3805, theBeta: 36
+there are children: [0]: 3876 : [1]: 3875 : [2]: 3871 : [3]: 3849 : [4]: 3847 : [5]: 3864 : [6]: 3846 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: G
+NodeHops found a child at: 0
+found child: 0
+v does not exist, calling add_v_edge
+
+	*** add_v_edge called ***
+
+curPtr->nodeID: 3845 : childNum: 0
+v->nodeID: 39, u->SL->nodeID: 39, u->nodeID: 3876
+case_IIB
+v->nodeID: 39, u->SL->nodeID: 39, u->nodeID: 3876 - i: 39 - len: 3805
+curPtr->nodeID: 39
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 40 | remLen: 3804 | curPtr->nodeID: 39 | (75, 3769) | parent: 3877 | grandparent: 3845
+	 children:  | 39, (75, 3769)  | 3876, (71, 1) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3877, (71, -1)
+
+	*** case_IIB called ***
+
+nodeID: 3877 - i: 40 - len: 3804
+case_IIB calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3877 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 39, (75, 3769)  : parent: 3877, (71, -1)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 40, len: 3804, theBeta: -2
+there are children: [0]: 3877 : [1]: 3875 : [2]: 3871 : [3]: 3849 : [4]: 3847 : [5]: 3864 : [6]: 3846 : 
+theString[i]: C : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: C : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: C : theString[curPtr->child[k]->edgeLabel[0]]: G
+theString[i]: C : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: C : theString[curPtr->child[k]->edgeLabel[0]]: C
+NodeHops found a child at: 4
+found child: 4
+v does not exist, calling add_v_edge
+
+	*** add_v_edge called ***
+
+curPtr->nodeID: 3845 : childNum: 4
+v->nodeID: 40, u->SL->nodeID: 40, u->nodeID: 3877
+case_IIB
+v->nodeID: 40, u->SL->nodeID: 40, u->nodeID: 3877 - i: 40 - len: 3804
+curPtr->nodeID: 40
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 41 | remLen: 3803 | curPtr->nodeID: 40 | (38, 3806) | parent: 3878 | grandparent: 3845
+	 children:  | 3847, (-2, 4)  | 40, (38, 3806) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3878, (-2, 2)
+
+	*** case_IIB called ***
+
+nodeID: 3878 - i: 41 - len: 3803
+case_IIB calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3878 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 40, (38, 3806)  : parent: 3878, (-2, 2)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 41, len: 3803, theBeta: 1
+there are children: [0]: 3877 : [1]: 3875 : [2]: 3871 : [3]: 3849 : [4]: 3878 : [5]: 3864 : [6]: 3846 : 
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: G
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]:  
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: C
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: T
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 3845
+v->nodeID: 3879, u->SL->nodeID: 3879, u->nodeID: 3878
+v->nodeID: 3879, u->SL->nodeID: 3879, u->nodeID: 3878
+case_IIB
+v->nodeID: 3879, u->SL->nodeID: 3879, u->nodeID: 3878 - i: 41 - len: 3803
+curPtr->nodeID: 3879
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 42 | remLen: 3802 | curPtr->nodeID: 3879 | (41, 3803) | parent: 3845 | grandparent: 3845
+	 children:  | 3879, (41, 3803)  | 3877, (71, -1)  | 3875, (8, 0)  | 3871, (27, 0)  | 3849, (5, 3)  | 3878, (-2, 2)  | 3864, (-3808, -3812)  | 3846, (1, 1) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3845, (-1, 0)
+
+	*** case_IB called ***
+
+i: 42 - len: 3802
+v->nodeID: 3845 - i: 42 - len: 3802
+curPtr->nodeID: 3845 - i: 42 - len: 3802
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3845, (-1, 0)  - i: 42 - len: 3802
+child found : child: 3
+recursion: findPath, curPtr->nodeID: 3845 : child: 3, i: 42, len: 3802, alpha: 0
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3871, (27, 0)  - i: 42 - len: 3802
+child found : child: 0
+i: 42, edgeLabel[1]: 1, j: 0
+theString[i]: G  -  theString[alpha + j]]: T
+	************* mismatch *****************
+theString[i]: G  -  theString[alpha + 0]]: T
+i: 42
+
+	*** insertEdge called ***
+
+	insert to  3871, child: 0, (27, 0) : i: 42 : len: 3802
+i: 42 : offset: 0 : i + offset: 42
+theString[newLeafNode->edgeLabel[0]]: G : theString[curPtr->child[childNum]->edgeLabel[0]]: G
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 43 | remLen: 3801 | curPtr->nodeID: 42 | (42, 3802) | parent: 3880 | grandparent: 3871
+	 children:  | 3866, (27, 1)  | 42, (42, 3802) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3880, (27, 0)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 3880 : i: 43 - len: 3801
+u->edgeLabel[1]: 0
+beta: 0
+u->nodeID: 3880
+u_prime->nodeID: 3871
+u_prime->parent->nodeID: 3845
+SL is fine
+v_prime->nodeID: 34
+case_IIA calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 34, (33, 3811)  : parent: 3872, (8, 10) 
+	*** u->nodeID: 3880 : parent: 3871, (27, 0)  : SL is NULL
+	*** u_prime->nodeID: 3871, (27, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v_prime->nodeID: 34, (33, 3811)  : parent: 3872, (8, 10)  : SL is NULL
+, i: 42, len: 3802, theBeta: 0
+j == 0
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 34
+v->nodeID: 3881, u->SL->nodeID: 3881, u->nodeID: 3880
+v->nodeID: 3881, u->SL->nodeID: 3881, u->nodeID: 3880
+v->nodeID: 3881, u->SL->nodeID: 3881, u->nodeID: 3880 - i: 42 - len: 3802
+curPtr->nodeID: 3881 - i: 42 - len: 3802
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 44 | remLen: 3800 | curPtr->nodeID: 3881 | (42, 3802) | parent: 34 | grandparent: 3872
+	 children:  | 3881, (42, 3802) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 34, (33, 3811)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 34 : i: 44 - len: 3800
+u->edgeLabel[1]: 3811
+beta: 3811
+u->nodeID: 34
+u_prime->nodeID: 3872
+u_prime->parent->nodeID: 3875
+SL is fine
+v_prime->nodeID: 35
+case_IIA calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 35, (44, 3800)  : parent: 3873, (37, 21) 
+	*** u->nodeID: 34 : parent: 3872, (8, 10)  : SL is NULL
+	*** u_prime->nodeID: 3872, (8, 10)  : parent: 3875, (8, 0)  : SL is NULL
+	*** v->nodeID: 3881, (42, 3802)  : parent: 34, (33, 3811)  : SL is NULL
+	*** v_prime->nodeID: 35, (44, 3800)  : parent: 3873, (37, 21)  : SL is NULL
+, i: 42, len: 3802, theBeta: 3811
+j == 0
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 35
+v->nodeID: 3882, u->SL->nodeID: 3882, u->nodeID: 34
+v->nodeID: 3882, u->SL->nodeID: 3882, u->nodeID: 34
+v->nodeID: 3882, u->SL->nodeID: 3882, u->nodeID: 34 - i: 42 - len: 3802
+curPtr->nodeID: 3882 - i: 42 - len: 3802
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 45 | remLen: 3799 | curPtr->nodeID: 3882 | (42, 3802) | parent: 35 | grandparent: 3873
+	 children:  | 3882, (42, 3802) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 35, (44, 3800)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 35 : i: 45 - len: 3799
+u->edgeLabel[1]: 3800
+beta: 3800
+u->nodeID: 35
+u_prime->nodeID: 3873
+u_prime->parent->nodeID: 3866
+SL is fine
+v_prime->nodeID: 3874
+case_IIA calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3874, (35, 3809)  : parent: 3876, (71, 1) 
+	*** u->nodeID: 35 : parent: 3873, (37, 21)  : SL is NULL
+	*** u_prime->nodeID: 3873, (37, 21)  : parent: 3866, (27, 1)  : SL is NULL
+	*** v->nodeID: 3882, (42, 3802)  : parent: 35, (44, 3800)  : SL is NULL
+	*** v_prime->nodeID: 3874, (35, 3809)  : parent: 3876, (71, 1)  : SL is NULL
+, i: 53, len: 3791, theBeta: 3800
+there are children: [0]: 36 : 
+theString[i]: T : theString[curPtr->child[k]->edgeLabel[0]]:  
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 3874
+v->nodeID: 3883, u->SL->nodeID: 3883, u->nodeID: 35
+v->nodeID: 3883, u->SL->nodeID: 3883, u->nodeID: 35
+v->nodeID: 3883, u->SL->nodeID: 3883, u->nodeID: 35 - i: 53 - len: 3791
+curPtr->nodeID: 3883 - i: 53 - len: 3791
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 46 | remLen: 3798 | curPtr->nodeID: 3883 | (53, 3791) | parent: 3874 | grandparent: 3876
+	 children:  | 36, (3844, 0)  | 3883, (53, 3791) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3874, (35, 3809)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 3874 : i: 46 - len: 3798
+u->edgeLabel[1]: 3809
+beta: 3809
+u->nodeID: 3874
+u_prime->nodeID: 3876
+u_prime->parent->nodeID: 3877
+SL is fine
+v_prime->nodeID: 39
+case_IIA calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 39, (75, 3769)  : parent: 3877, (71, -1) 
+	*** u->nodeID: 3874 : parent: 3876, (71, 1)  : SL is NULL
+	*** u_prime->nodeID: 3876, (71, 1)  : parent: 3877, (71, -1)  : SL is NULL
+	*** v->nodeID: 3883, (53, 3791)  : parent: 3874, (35, 3809)  : SL is NULL
+	*** v_prime->nodeID: 39, (75, 3769)  : parent: 3877, (71, -1)  : SL is NULL
+, i: 44, len: 3800, theBeta: 3809
+j == 0
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 39
+v->nodeID: 3884, u->SL->nodeID: 3884, u->nodeID: 3874
+v->nodeID: 3884, u->SL->nodeID: 3884, u->nodeID: 3874
+v->nodeID: 3884, u->SL->nodeID: 3884, u->nodeID: 3874 - i: 44 - len: 3800
+curPtr->nodeID: 3884 - i: 44 - len: 3800
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 47 | remLen: 3797 | curPtr->nodeID: 3884 | (44, 3800) | parent: 39 | grandparent: 3877
+	 children:  | 3884, (44, 3800) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 39, (75, 3769)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 39 : i: 47 - len: 3797
+u->edgeLabel[1]: 3769
+beta: 3769
+u->nodeID: 39
+u_prime->nodeID: 3877
+u_prime->parent->nodeID: 3845
+SL is fine
+v_prime->nodeID: 40
+case_IIA calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 40, (38, 3806)  : parent: 3878, (-2, 2) 
+	*** u->nodeID: 39 : parent: 3877, (71, -1)  : SL is NULL
+	*** u_prime->nodeID: 3877, (71, -1)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 3884, (44, 3800)  : parent: 39, (75, 3769)  : SL is NULL
+	*** v_prime->nodeID: 40, (38, 3806)  : parent: 3878, (-2, 2)  : SL is NULL
+, i: 82, len: 3762, theBeta: 3769
+j == 0
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 40
+v->nodeID: 3885, u->SL->nodeID: 3885, u->nodeID: 39
+v->nodeID: 3885, u->SL->nodeID: 3885, u->nodeID: 39
+v->nodeID: 3885, u->SL->nodeID: 3885, u->nodeID: 39 - i: 82 - len: 3762
+curPtr->nodeID: 3885 - i: 82 - len: 3762
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 48 | remLen: 3796 | curPtr->nodeID: 3885 | (82, 3762) | parent: 40 | grandparent: 3878
+	 children:  | 3885, (82, 3762) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 40, (38, 3806)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 40 : i: 48 - len: 3796
+u->edgeLabel[1]: 3806
+beta: 3806
+u->nodeID: 40
+u_prime->nodeID: 3878
+u_prime->parent->nodeID: 3845
+SL is fine
+v_prime->nodeID: 3879
+case_IIA calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3879, (41, 3803)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 40 : parent: 3878, (-2, 2)  : SL is NULL
+	*** u_prime->nodeID: 3878, (-2, 2)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 3885, (82, 3762)  : parent: 40, (38, 3806)  : SL is NULL
+	*** v_prime->nodeID: 3879, (41, 3803)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 45, len: 3799, theBeta: 3806
+there are children: [0]: 41 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]:  
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 3879
+v->nodeID: 3886, u->SL->nodeID: 3886, u->nodeID: 40
+v->nodeID: 3886, u->SL->nodeID: 3886, u->nodeID: 40
+v->nodeID: 3886, u->SL->nodeID: 3886, u->nodeID: 40 - i: 45 - len: 3799
+curPtr->nodeID: 3886 - i: 45 - len: 3799
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 49 | remLen: 3795 | curPtr->nodeID: 3886 | (45, 3799) | parent: 3879 | grandparent: 3845
+	 children:  | 41, (3844, 0)  | 3886, (45, 3799) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3879, (41, 3803)
+
+	*** case_IIB called ***
+
+nodeID: 3879 - i: 49 - len: 3795
+case_IIB calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3879 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 3886, (45, 3799)  : parent: 3879, (41, 3803)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 49, len: 3795, theBeta: 3802
+there are children: [0]: 3879 : [1]: 3877 : [2]: 3875 : [3]: 3871 : [4]: 3849 : [5]: 3878 : [6]: 3864 : [7]: 3846 : 
+theString[i]: C : theString[curPtr->child[k]->edgeLabel[0]]: A
+theString[i]: C : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: C : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: C : theString[curPtr->child[k]->edgeLabel[0]]: G
+theString[i]: C : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: C : theString[curPtr->child[k]->edgeLabel[0]]:  
+theString[i]: C : theString[curPtr->child[k]->edgeLabel[0]]: C
+NodeHops found a child at: 6
+found child: 6
+curPtr->nodeID: 3845
+childNum: 6
+curPtr->child[childNum]->nodeID: 3864
+recursive call to NodeHops:
+curPtr->nodeID: 3864 : curPtr->parent->nodeID: 3845
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3864, (-3808, -3812)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3879 : parent: 3845, (-1, 0)  : SL is NULL
+	*** u_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 3886, (45, 3799)  : parent: 3879, (41, 3803)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: -3763, len: 7607, theBeta: 7614
+there are children: [0]: 3861 : [1]: 26 : 
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: C
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]: G
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 3864
+v->nodeID: 3887, u->SL->nodeID: 3887, u->nodeID: 3879
+v->nodeID: 3887, u->SL->nodeID: 3887, u->nodeID: 3879
+v->nodeID: 3887, u->SL->nodeID: 3887, u->nodeID: 3879
+case_IIB
+v->nodeID: 3887, u->SL->nodeID: 3887, u->nodeID: 3879 - i: 49 - len: 3795
+curPtr->nodeID: 3887
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 50 | remLen: 3794 | curPtr->nodeID: 3887 | (-3763, 7607) | parent: 3864 | grandparent: 3845
+	 children:  | 3887, (-3763, 7607)  | 3861, (-3808, 3812)  | 26, (28, 3816) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3864, (-3808, -3812)
+
+	*** case_IA called ***
+
+i: 50 - len: 3794
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3865, (37, 3807)  - i: 3867 - len: -23
+*** CATCHALL1 *** 	- check the insertSuffix function
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 51 | remLen: 3793 | curPtr->nodeID: 27 | (3844, 0) | parent: 3865 | grandparent: 3869
+	 children:  | 27, (3844, 0) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3865, (37, 3807)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 3865 : i: 51 - len: 3793
+u->edgeLabel[1]: 3807
+beta: 3807
+u->nodeID: 3865
+u_prime->nodeID: 3869
+u_prime->parent->nodeID: 3866
+SL is fine
+v_prime->nodeID: 3870
+case_IIA calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3870, (33, 3811)  : parent: 3866, (27, 1) 
+	*** u->nodeID: 3865 : parent: 3869, (37, 19)  : SL is NULL
+	*** u_prime->nodeID: 3869, (37, 19)  : parent: 3866, (27, 1)  : SL is NULL
+	*** v->nodeID: 3865, (37, 3807)  : parent: 3869, (37, 19)  : SL is NULL
+	*** v_prime->nodeID: 3870, (33, 3811)  : parent: 3866, (27, 1)  : SL is NULL
+, i: 60, len: 3784, theBeta: 3807
+there are children: [0]: 32 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]:  
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 3870
+v->nodeID: 3888, u->SL->nodeID: 3888, u->nodeID: 3865
+v->nodeID: 3888, u->SL->nodeID: 3888, u->nodeID: 3865
+v->nodeID: 3888, u->SL->nodeID: 3888, u->nodeID: 3865 - i: 60 - len: 3784
+curPtr->nodeID: 3888 - i: 60 - len: 3784
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 52 | remLen: 3792 | curPtr->nodeID: 3888 | (60, 3784) | parent: 3870 | grandparent: 3866
+	 children:  | 32, (3845, -1)  | 3888, (60, 3784) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3870, (33, 3811)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 3870 : i: 52 - len: 3792
+u->edgeLabel[1]: 3811
+beta: 3811
+u->nodeID: 3870
+u_prime->nodeID: 3866
+u_prime->parent->nodeID: 3880
+SL is fine
+v_prime->nodeID: 3845
+case_IIA calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3870 : parent: 3866, (27, 1)  : SL is NULL
+	*** u_prime->nodeID: 3866, (27, 1)  : parent: 3880, (27, 0)  : SL is NULL
+	*** v->nodeID: 3888, (60, 3784)  : parent: 3870, (33, 3811)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 52, len: 3792, theBeta: 3811
+there are children: [0]: 3879 : [1]: 3877 : [2]: 3875 : [3]: 3871 : [4]: 3849 : [5]: 3878 : [6]: 3864 : [7]: 3846 : 
+theString[i]: C : theString[curPtr->child[k]->edgeLabel[0]]: A
+theString[i]: C : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: C : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: C : theString[curPtr->child[k]->edgeLabel[0]]: G
+theString[i]: C : theString[curPtr->child[k]->edgeLabel[0]]: T
+theString[i]: C : theString[curPtr->child[k]->edgeLabel[0]]:  
+theString[i]: C : theString[curPtr->child[k]->edgeLabel[0]]: C
+NodeHops found a child at: 6
+found child: 6
+curPtr->nodeID: 3845
+childNum: 6
+curPtr->child[childNum]->nodeID: 3864
+recursive call to NodeHops:
+curPtr->nodeID: 3864 : curPtr->parent->nodeID: 3845
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3864, (-3808, -3812)  : parent: 3845, (-1, 0) 
+	*** u->nodeID: 3870 : parent: 3866, (27, 1)  : SL is NULL
+	*** u_prime->nodeID: 3866, (27, 1)  : parent: 3880, (27, 0)  : SL is NULL
+	*** v->nodeID: 3888, (60, 3784)  : parent: 3870, (33, 3811)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: -3760, len: 7604, theBeta: 7623
+there are children: [0]: 3887 : [1]: 3861 : [2]: 26 : 
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: A
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: C
+theString[i]: G : theString[curPtr->child[k]->edgeLabel[0]]: G
+NodeHops found a child at: 2
+found child: 2
+curPtr->nodeID: 3864
+childNum: 2
+curPtr->child[childNum]->nodeID: 26
+recursive call to NodeHops:
+curPtr->nodeID: 26 : curPtr->parent->nodeID: 3864
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 26, (28, 3816)  : parent: 3864, (-3808, -3812) 
+	*** u->nodeID: 3870 : parent: 3866, (27, 1)  : SL is NULL
+	*** u_prime->nodeID: 3866, (27, 1)  : parent: 3880, (27, 0)  : SL is NULL
+	*** v->nodeID: 3888, (60, 3784)  : parent: 3870, (33, 3811)  : SL is NULL
+	*** v_prime->nodeID: 3845, (-1, 0)  : parent: 3845, (-1, 0)  : SL is NULL
+, i: 56, len: 3788, theBeta: 3807
+j == 0
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 26
+v->nodeID: 3889, u->SL->nodeID: 3889, u->nodeID: 3870
+v->nodeID: 3889, u->SL->nodeID: 3889, u->nodeID: 3870
+v->nodeID: 3889, u->SL->nodeID: 3889, u->nodeID: 3870
+v->nodeID: 3889, u->SL->nodeID: 3889, u->nodeID: 3870
+v->nodeID: 3889, u->SL->nodeID: 3889, u->nodeID: 3870 - i: 52 - len: 3792
+curPtr->nodeID: 3889 - i: 52 - len: 3792
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 53 | remLen: 3791 | curPtr->nodeID: 3889 | (56, 3788) | parent: 26 | grandparent: 3864
+	 children:  | 3889, (56, 3788) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 26, (28, 3816)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 26 : i: 53 - len: 3791
+u->edgeLabel[1]: 3816
+beta: 3816
+u->nodeID: 26
+u_prime->nodeID: 3864
+u_prime->parent->nodeID: 3845
+SL is fine
+v_prime->nodeID: 3865
+case_IIA calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3865, (37, 3807)  : parent: 3869, (37, 19) 
+	*** u->nodeID: 26 : parent: 3864, (-3808, -3812)  : SL is NULL
+	*** u_prime->nodeID: 3864, (-3808, -3812)  : parent: 3845, (-1, 0)  : SL is NULL
+	*** v->nodeID: 3889, (56, 3788)  : parent: 26, (28, 3816)  : SL is NULL
+	*** v_prime->nodeID: 3865, (37, 3807)  : parent: 3869, (37, 19)  : SL is NULL
+, i: 54, len: 3790, theBeta: 3816
+there are children: [0]: 27 : 
+theString[i]: A : theString[curPtr->child[k]->edgeLabel[0]]:  
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 3865
+v->nodeID: 3890, u->SL->nodeID: 3890, u->nodeID: 26
+v->nodeID: 3890, u->SL->nodeID: 3890, u->nodeID: 26
+v->nodeID: 3890, u->SL->nodeID: 3890, u->nodeID: 26 - i: 54 - len: 3790
+curPtr->nodeID: 3890 - i: 54 - len: 3790
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 54 | remLen: 3790 | curPtr->nodeID: 3890 | (54, 3790) | parent: 3865 | grandparent: 3869
+	 children:  | 27, (3844, 0)  | 3890, (54, 3790) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3865, (37, 3807)
+
+	*** case_IA called ***
+
+i: 54 - len: 3790
+
+	*** insertSuffix called ***
+
+curPtr->nodeID: 3888, (60, 3784)  - i: 7650 - len: -3806
+*** CATCHALL1 *** 	- check the insertSuffix function
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 55 | remLen: 3789 | curPtr->nodeID: 50 | (7656, -3812) | parent: 3888 | grandparent: 3870
+	 children:  | 50, (7656, -3812) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 3888, (60, 3784)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 3888 : i: 55 - len: 3789
+u->edgeLabel[1]: 3784
+beta: 3784
+u->nodeID: 3888
+u_prime->nodeID: 3870
+u_prime->parent->nodeID: 3866
+SL is fine
+v_prime->nodeID: 3889
+case_IIA calling NodeHops
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 3889, (56, 3788)  : parent: 26, (28, 3816) 
+	*** u->nodeID: 3888 : parent: 3870, (33, 3811)  : SL is NULL
+	*** u_prime->nodeID: 3870, (33, 3811)  : parent: 3866, (27, 1)  : SL is NULL
+	*** v->nodeID: 3888, (60, 3784)  : parent: 3870, (33, 3811)  : SL is NULL
+	*** v_prime->nodeID: 3889, (56, 3788)  : parent: 26, (28, 3816)  : SL is NULL
+, i: 3866, len: -22, theBeta: 3784
+there are children: [0]: 51 : 
+theString[i]:   : theString[curPtr->child[k]->edgeLabel[0]]:  
+NodeHops found a child at: 0
+found child: 0
+curPtr->nodeID: 3889
+childNum: 0
+curPtr->child[childNum]->nodeID: 51
+recursive call to NodeHops:
+curPtr->nodeID: 51 : curPtr->parent->nodeID: 3889
+
+	*** NodeHops called ***
+
+	*** current pointers ***
+
+	*** curPtr->nodeID: 51, (7662, -3818)  : parent: 3889, (56, 3788) 
+	*** u->nodeID: 3888 : parent: 3870, (33, 3811)  : SL is NULL
+	*** u_prime->nodeID: 3870, (33, 3811)  : parent: 3866, (27, 1)  : SL is NULL
+	*** v->nodeID: 3888, (60, 3784)  : parent: 3870, (33, 3811)  : SL is NULL
+	*** v_prime->nodeID: 3889, (56, 3788)  : parent: 26, (28, 3816)  : SL is NULL
+, i: 48, len: 3796, theBeta: 7602
+j == 0
+
+	*** add_v_child called ***
+
+curPtr->nodeID: 51
+v->nodeID: 3891, u->SL->nodeID: 3891, u->nodeID: 3888
+v->nodeID: 3891, u->SL->nodeID: 3891, u->nodeID: 3888
+v->nodeID: 3891, u->SL->nodeID: 3891, u->nodeID: 3888
+v->nodeID: 3891, u->SL->nodeID: 3891, u->nodeID: 3888 - i: 3866 - len: -22
+curPtr->nodeID: 3891 - i: 3866 - len: -22
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	index: 56 | remLen: 3788 | curPtr->nodeID: 3891 | (48, 3796) | parent: 51 | grandparent: 3889
+	 children:  | 3891, (48, 3796) 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+u->nodeID: 51, (7662, -3818)
+
+	*** case_IIA called ***
+
+curPtr->nodeID: 51 : i: 56 - len: 3788
+u->edgeLabel[1]: -3818
+beta: -3818
+u->nodeID: 51
+u_prime->nodeID: 3889
+u_prime->parent->nodeID: 26
+SL is null

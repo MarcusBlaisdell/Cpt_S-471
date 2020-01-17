@@ -1,0 +1,31 @@
+project 2 stats
+
+
+string s1
+4
+7
+
+string s2
+7
+12
+
+Opsin gene in human (3,302 bp)
+2105
+3303
+
+Opsin gene in mouse (3,843 bp)
+2471
+3844
+
+Human BRCA2 gene (11,382 bp)
+7300
+11383
+
+Tomato's chloroplast genome (155,461 bp)
+98973
+155462
+
+Yeast's Chromosome 12 (1,078,175 bp)
+699520
+1078176
+

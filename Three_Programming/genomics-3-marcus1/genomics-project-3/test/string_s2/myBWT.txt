@@ -1,0 +1,13 @@
+Display the BWT index for the input string
+I
+P
+S
+S
+M
+$
+P
+I
+S
+S
+I
+I

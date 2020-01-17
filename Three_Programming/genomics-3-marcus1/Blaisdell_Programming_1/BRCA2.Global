@@ -1,0 +1,14 @@
+use: 0
+
+	 *** Parameter configuration values ***
+
+	match:    1
+	mismatch: -2
+	g:        -1
+	h:        -5
+
+Sequence 1 = "(gi|37675288:1224-1411, ", length = 10430 characters
+Sequence 2 = "(gi|17973424:1-254, ", length = 10346 characters
+
+Running Global . . . 
+

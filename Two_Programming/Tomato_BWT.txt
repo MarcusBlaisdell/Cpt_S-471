@@ -1,0 +1,4 @@
+Time to build Suffix Tree: 55487913 us
+
+A
+A

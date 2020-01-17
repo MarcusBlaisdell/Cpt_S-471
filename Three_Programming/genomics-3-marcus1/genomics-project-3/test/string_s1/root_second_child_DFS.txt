@@ -1,0 +1,7 @@
+DFS the tree and display string depth of each node
+1
+2
+3
+4
+6
+

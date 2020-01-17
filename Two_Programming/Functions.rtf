@@ -1,0 +1,69 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww16340\viewh14660\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf0 	findPath function\
+\
+bool findPath (node u, str s)\
+\{\
+	if s[i]\
+		pick a branch out of u that starts with s[i]\
+		if no such branch exists, return false\
+		Let alpha = edge label (edge)(e): j = 1\
+		while (i <= m and alpha[j] exists)\
+		\{\
+			check s[i] == alpha[j]	// if query q has been exhausted, return true\
+			yes:\
+				i++;\
+				j++;\
+				continue\
+			no:\
+				return false\
+\
+		\} // end while\
+\
+		let u <-next child\
+\
+		findPath (u, s, i);\
+\
+\} // end function findPath
+\fs24 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs36 \cf0 \
+typedef struct node\
+\{\
+  int nodeID;\
+  struct node * SL = NULL;\
+  struct node * parent;\
+  //string edgeLabel;\
+  int edgeLabel[2];\
+  vector <struct node * > child;\
+  int stringDepth;\
+\
+\} aNode;\
+\
+aNode * createNode(string theString, aNode * parentNode)\
+\
+aNode * buildSFTree (string *theData)\
+\
+// iterate through vector:\
+for (vector<aNode *>::iterator it = root->child.begin (); it != root->child.end (); it++)\
+  \{\
+    cout << "inside for loop " << endl;\
+    cout << (*it)->nodeID << endl;\
+    cout << (*it)->edgeLabel << endl;\
+    cout << (*it)->stringDepth << endl;\
+  \}\
+\
+#include <chrono>\
+auto begin = chrono::high_resolution_clock::now();\
+auto end = chrono::high_resolution_clock::now();\
+auto dur = end - begin;\
+auto ms = std::chrono::duration_cast<chrono::milliseconds> (dur).count();\
+cout << "ms: " << ms << endl;\
+}

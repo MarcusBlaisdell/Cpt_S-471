@@ -1,0 +1,15 @@
+3066 : 779 * 3068 : 777 * 5982 : 0 * string is empty
+Time to build Suffix Tree: 164285 us
+
+
+
+Statistics:
+
+numInternalNodes: 2680
+numLeaves: 4453
+totalNodes: 7133
+tree size: 57064
+average string-depth of internal nodes: 0.448881
+string-depth of deepest internal node: 13
+
+

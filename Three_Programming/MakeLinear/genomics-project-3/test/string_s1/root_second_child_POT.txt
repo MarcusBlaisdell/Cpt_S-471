@@ -1,0 +1,7 @@
+Post-order traversing the tree and display string depth of each node
+2
+4
+6
+3
+1
+

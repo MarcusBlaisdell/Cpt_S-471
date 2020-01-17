@@ -1,0 +1,8 @@
+Display the BWT index for the input string
+A
+N
+N
+B
+$
+A
+A

@@ -1,0 +1,21 @@
+Time to build Suffix Tree: 130 us
+
+A
+N
+N
+B
+$
+A
+A
+
+
+Statistics:
+
+numInternalNodes: 4
+numLeaves: 7
+totalNodes: 11
+tree size: 88
+average string-depth of internal nodes: 1.5
+string-depth of deepest internal node: 3
+
+
